@@ -30,7 +30,8 @@
 
 .contact-bar
 {
-    padding: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .contact-bar-middle
@@ -69,16 +70,16 @@
 }
 
 .contact-bar-item a::after {
-content: "";
-width: 0;
-height: 2px;
-background-color: #0d6efd;
-display: block;
-transition: width 0.5s;
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #0d6efd;
+    display: block;
+    transition: width 0.5s;
 }
 
 .contact-bar-item a:hover::after {
-width: 100%;
+    width: 100%;
 }
 
 /* main image */
